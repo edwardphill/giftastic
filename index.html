@@ -8,9 +8,7 @@
   <body>
     <button id="cat-button">cat</button>
     <button id="dog-button">dog</button>
-    <div id="cat-images"></div>
-    <div id="dog-images"></div>
-
+    <div id="images"></div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript">
       // Event listener for our cat-button
@@ -38,7 +36,7 @@
             catImage.attr("alt", "cat image");
 
             // Prepending the catImage to the images div
-            $("#cat-images").prepend(catImage);
+            $("#images").prepend(catImage);
           });
       });
 
