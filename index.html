@@ -6,12 +6,24 @@
   </head>
 
   <body>
+    <!-- 
     <button id="cat-button">cat</button>
-    <button id="dog-button">dog</button>
-    <button id="fish-button">fish</button>
-    <button id="fishing-button">fishing</button>
+    -->
 
-    <div id="images"></div>
+    <div class="container">
+      <form id="gif-form">
+        <!-- Label for Text Box -->
+        <label for="gifinput">Choose Your GIF</label>
+
+        <!-- Text Input Box -->
+        <input type="text" id="gif-input" /><br />
+
+        <!-- Submit Button -->
+        <input id="select-gif" type="submit" value="GO!" />
+      </form>
+      <div id="gif-button-view"></div>
+      <div id="images"></div>
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script
       type="text/javascript"
